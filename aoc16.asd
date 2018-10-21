@@ -2,7 +2,7 @@
 
 (asdf:defsystem #:aoc16
   :description "Advent of Code 2016"
-  :depends-on ("cl-ppcre")
+  :depends-on ("cl-ppcre" "arrows")
   :serial t
   :components ((:file "package")
                (:file "day01")

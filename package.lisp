@@ -4,5 +4,5 @@
   (:use #:cl))
 
 (defpackage :day01
-  (:use :cl)
+  (:use :cl :arrows)
   (:import-from :cl-ppcre :split :scan-to-strings :do-register-groups))
