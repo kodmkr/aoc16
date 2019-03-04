@@ -6,3 +6,7 @@
 (defpackage :day01
   (:use :cl :arrows)
   (:import-from :cl-ppcre :do-register-groups))
+
+(defpackage :day02
+  (:use :cl :arrows)
+  (:import-from :cl-ppcre :do-register-groups))
