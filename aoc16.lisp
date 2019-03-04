@@ -4,8 +4,8 @@
 
 (defun run (&key day sol)
   "Runs the solution SOL{sol} in package DAY{day},
-where `day` is a two digit number from 1 to 25 and
-`sol` is either the number 1 or the number 2.
+where `{day}` is a two digit number from 1 to 25 and
+`{sol}` is either the number 1 or the number 2.
 
 EXAMPLE.
         (run 1 1) ; => causes DAY01:SOL1 to be run"
