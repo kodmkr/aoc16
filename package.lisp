@@ -10,3 +10,7 @@
 (defpackage :day02
   (:use :cl :arrows)
   (:import-from :cl-ppcre :do-register-groups))
+
+(defpackage :day03
+  (:use :cl :arrows)
+  (:import-from :cl-ppcre :do-register-groups :split))

@@ -7,4 +7,5 @@
   :components ((:file "package")
                (:file "day01")
                (:file "day02")
+               (:file "day03")
                (:file "aoc16")))
