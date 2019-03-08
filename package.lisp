@@ -14,3 +14,7 @@
 (defpackage :day03
   (:use :cl :arrows)
   (:import-from :cl-ppcre :do-register-groups :split))
+
+(defpackage :day04
+  (:use :cl :arrows)
+  (:import-from :cl-ppcre :do-register-groups :register-groups-bind))
