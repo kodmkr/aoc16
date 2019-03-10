@@ -18,3 +18,7 @@
 (defpackage :day04
   (:use :cl :arrows)
   (:import-from :cl-ppcre :do-register-groups :register-groups-bind))
+
+(defpackage :day05
+  (:use :cl :arrows :md5 :bit-smasher)
+  (:import-from :cl-ppcre :do-register-groups :split))
