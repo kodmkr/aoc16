@@ -25,3 +25,7 @@
 
 (defpackage :day06
   (:use :cl :arrows))
+
+(defpackage :day07
+  (:use :cl :arrows)
+  (:import-from :cl-ppcre :scan-to-strings :scan))
