@@ -29,3 +29,7 @@
 (defpackage :day07
   (:use :cl :arrows)
   (:import-from :cl-ppcre :scan-to-strings :scan))
+
+(defpackage :day08
+  (:use :cl :arrows)
+  (:import-from :cl-ppcre :register-groups-bind))
