@@ -33,3 +33,6 @@
 (defpackage :day08
   (:use :cl :arrows)
   (:import-from :cl-ppcre :register-groups-bind))
+
+(defpackage :day09
+  (:use :cl :arrows))
