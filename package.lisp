@@ -40,3 +40,11 @@
 (defpackage :day10
   (:use :cl :arrows)
   (:import-from :cl-ppcre :register-groups-bind))
+
+
+
+
+
+(defpackage :day12
+  (:use :cl :arrows)
+  (:import-from :cl-ppcre :split))
