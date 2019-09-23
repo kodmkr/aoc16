@@ -2,7 +2,7 @@
 
 (asdf:defsystem #:aoc16
   :description "Advent of Code 2016"
-  :depends-on ("cl-ppcre" "arrows" "md5" "bit-smasher")
+  :depends-on ("cl-ppcre" "arrows" "md5" "bit-smasher" "map-set" "alexandria" "anaphora")
   :serial t
   :components ((:file "package")
                (:file "day01")
@@ -15,9 +15,9 @@
                (:file "day08")
                (:file "day09")
                (:file "day10")
-               ;; (:file "day11")
+               (:file "day11")
                (:file "day12")
-               ;; (:file "day13")
+               (:file "day13")
                ;; (:file "day14")
                ;; (:file "day15")
                ;; (:file "day16")
