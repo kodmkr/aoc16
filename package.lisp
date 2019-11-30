@@ -59,3 +59,6 @@
 
 (defpackage :day16
   (:use :cl :arrows))
+
+(defpackage :day18
+  (:use :cl :arrows))
